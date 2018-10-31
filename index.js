@@ -8,3 +8,11 @@ const returnLastTwoDrivers = function (drivers) {
 }
 
 const selectingDrivers = [ returnFirstTwoDrivers, returnLastTwoDrivers];
+
+const createFareMultiplier = function (multipleValue) {
+  return function (value) {
+    return multipleValue * value;
+  };
+};
+
+const fareDoubler = createFareMultiplier(2);
