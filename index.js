@@ -22,3 +22,7 @@ const fareTripler = createFareMultiplier(3);
 const selectDifferentDrivers = function (drivers, whichDrivers) {
   return whichDrivers(drivers);
 };
+
+const fetchSpecifiedDrivers = function (drivers, whileDrivers) {
+  return whichDrivers(drivers);
+};
